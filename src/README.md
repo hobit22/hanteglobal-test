@@ -162,4 +162,6 @@ System.out.println(category.toJson());
 - 동전의 종류 개수: N 
 - 목표 합계: sum 
 - dp[i] += dp[i - coin]
-- O(N * sum)
+- dp의 시간복잡도 O(N * sum)
+- 출력시 정렬 시간복잡도 O(N log N)
+- 총 시간 복잡도 O(N * sum * N log N)
